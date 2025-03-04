@@ -27,4 +27,4 @@ jobs:
             - name: Test
               env:
                 PORT: ${{secrets.PORT}}
-              run: npm run Test
+              run: npm run test
